@@ -137,6 +137,8 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-image: url("image/profile_wider.jpg");
+  background-size: cover;
 }
 
 #header .logo {
@@ -147,16 +149,20 @@ li {
 
 #header .logo-title {
   font-family: "Open sans", sans-serif;
-  font-size: 64px;
+  font-size: 80px;
   line-height: 1;
   letter-spacing: .2em;
+  color:blue;
+  text-shadow: 1px 2px 3px #808080;
 }
 
 #header .logo-desc {
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 5px;
   text-align: center;
   letter-spacing: .2em;
+  color: lightseagreen;
+  text-shadow: 1px 2px 3px #808080;
 }
 
 /*--------------------------------
